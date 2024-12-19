@@ -1,0 +1,16 @@
+#include <string>
+#include <vector>
+#define SheepMoney 12000
+#define DrinkMoney 2000
+
+using namespace std;
+
+int solution(int n, int k) {
+    int answer = 0;
+    
+    int nService = n / 10;
+    
+    answer = (n * SheepMoney) + (k * DrinkMoney) - (nService * DrinkMoney);
+    
+    return answer;
+}

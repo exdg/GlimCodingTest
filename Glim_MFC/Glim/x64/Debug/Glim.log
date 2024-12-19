@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  Glim.cpp
+  GlimDlg.cpp
+  코드를 생성하고 있습니다...
+C:\Users\Park_Jun\source\DHrepos\Glim\Glim_MFC\GlimDlg.cpp(246,18): warning C4244: '초기화 중': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/GlimDlg.cpp'을(를) 컴파일하는 중)
+  
+  Glim.vcxproj -> C:\Users\Park_Jun\source\DHrepos\Glim\Glim_MFC\x64\Debug\Glim.exe

@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  Glim.cpp
+  GlimDlg.cpp
+C:\Users\Park_Jun\Documents\00.박다현\01.취업\그림\MFC과제\Glim\GlimDlg.cpp(246,18): warning C4244: '초기화 중': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/GlimDlg.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 224 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Glim.vcxproj -> C:\Users\Park_Jun\Documents\00.박다현\01.취업\그림\MFC과제\Glim\x64\Release\Glim.exe

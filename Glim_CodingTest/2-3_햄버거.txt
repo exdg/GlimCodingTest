@@ -1,0 +1,33 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int solution(vector<int> ingredient) {
+    int answer = 0;
+    
+    for(int i = 0; i < ingredient.size(); i++)
+    {
+        if(ingredient[i] == 1 && (i - 3) >= 0)
+        {
+            if(ingredient[i-3] == 1 && ingredient[i-2] == 2 && ingredient[i-1] == 3)
+                i = i - 3;
+        }
+        
+        int nCheck = i;
+        if(ingredient[nCheck] == 1 && ingredient[++nCheck] == 2 
+           && ingredient[++nCheck] == 3 && ingredient[++nCheck] == 1)
+        {
+            answer++;
+
+            if(nCheck >= ingredient.size())
+                ingredient.erase(ingredient.begin()+i, ingredient.end());
+            else
+                ingredient.erase(ingredient.begin()+i, ingredient.begin()+nCheck+1);
+            
+            i--;
+        }
+    }
+    
+    return answer;
+}
